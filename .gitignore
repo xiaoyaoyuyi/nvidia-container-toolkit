@@ -11,3 +11,5 @@
 /nvidia-ctk
 /shared-*
 /release-*
+toolkit-test/
+nvidia-cdi-hook
