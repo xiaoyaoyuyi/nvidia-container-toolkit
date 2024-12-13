@@ -13,3 +13,5 @@
 /release-*
 toolkit-test/
 nvidia-cdi-hook
+/coverage.txt*
+/coverage.html*
