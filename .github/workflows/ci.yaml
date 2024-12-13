@@ -21,7 +21,7 @@ jobs:
           curl -Os https://cli.codecov.io/latest/linux/codecov
           chmod +x codecov
           ./codecov --verbose upload-process --fail-on-error -t ${{ secrets.CODECOV_TOKEN }} -n 'service'-${{ github.run_id }} -F service -f coverage-service.xml
-    - name: Upload coverage with Codecov Action
-        uses: codecov/codecov-action@v5
-        with:
-          token: ${{ secrets.CODECOV_ORG_TOKEN }}
+      - name: Upload coverage with Codecov Action
+          uses: codecov/codecov-action@v5
+          with:
+            token: ${{ secrets.CODECOV_ORG_TOKEN }}
